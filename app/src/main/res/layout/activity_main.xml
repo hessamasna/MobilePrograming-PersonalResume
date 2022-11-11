@@ -30,6 +30,16 @@
             app:srcCompat="@drawable/photo_2022_11_11_13_18_58" />
 
         <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -98,12 +108,14 @@
             android:layout_height="53dp"
             android:layout_marginTop="32dp"
             android:onClick="callBtn"
-            android:text="@string/call_me"
+            android:text="Call me!"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.454"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
